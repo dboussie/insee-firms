@@ -9,3 +9,9 @@ https://api.insee.fr/catalogue/site/themes/wso2/subthemes/insee/pages/item-info.
 Use case : 
 We have a big table in Google Cloud plateform with INSEE SIRET number and we enrich a column with company size
 Then we use Google data studio to render the data.
+
+Method : 
+We start from a CSV file : companies-siret-source.csv
+We import it into Big Query
+We find the JSON key for authentication
+And run the program
